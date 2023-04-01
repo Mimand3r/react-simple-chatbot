@@ -18,6 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "debug": "BROWSER='google chrome' BROWSER_ARGS='--remote-debugging-port=3000' react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

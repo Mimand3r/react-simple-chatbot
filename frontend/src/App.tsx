@@ -14,6 +14,21 @@ const steps=[
   },
   {
     id: '3',
+    options: [
+      { value: 1, label: 'Number 1', trigger: '4' },
+      { value: 2, label: 'Number 2', trigger: '3' },
+      { value: 3, label: 'Number 3', trigger: '3' },
+    ],
+  },
+  {
+    id: '4',
+    component: (
+      <div> This is an example component </div>
+    ),
+    trigger: '4',
+  },
+  {
+    id: '5',
     message: 'Hi {previousValue}, nice to meet you!',
     end: true,
   },
