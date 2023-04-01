@@ -1,5 +1,5 @@
 import './App.css';
-import ChatBot from './chatbot_vorlage/lib';
+import ChatBot from './chatbot/lib';
 
 const steps=[
   {
