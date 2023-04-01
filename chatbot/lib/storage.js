@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { stringify, parse } from 'flatted/cjs'
 
 /* istanbul ignore next */
