@@ -207,6 +207,7 @@ class ChatBot extends Component {
 
   onValueChange = event => {
     this.setState({ inputValue: event.target.value });
+    // User wrote input
   };
 
   getTriggeredStep = (trigger, value) => {
